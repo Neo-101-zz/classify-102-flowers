@@ -1,0 +1,18 @@
+{
+  "model"            : "mobilenet",
+  "weights"          : "imagenet",
+  "include_top"      : false,
+
+  "train_path"       : "dataset/102flowers/train",
+  "test_path"        : "dataset/102flowers/test",
+  "features_path"    : "output/102flowers/mobilenet/features.h5",
+  "labels_path"      : "output/102flowers/mobilenet/labels.h5",
+  "results"          : "output/102flowers/mobilenet/results.txt",
+  "confusion_matrix" : "output/102flowers/mobilenet/confusion_matrix.png",
+  "classifier_path"  : "output/102flowers/mobilenet/classifier.pickle",
+  "model_path"       : "output/102flowers/mobilenet/model",
+
+  "test_size"        : 0.10,
+  "seed"             : 9,
+  "num_classes"      : 102
+}
