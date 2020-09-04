@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Except these:
+!.gitignore
+!README.md
+!*.py
+!*.json
+
+# Even if they are in subdirectories
+!*/
